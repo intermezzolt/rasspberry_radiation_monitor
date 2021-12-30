@@ -11,7 +11,7 @@ services:
     restart: always
     build: ./grafana
     ports:
-      - "8111"
+      - "80"
     volumes:
       - 'sense-data:/data'
     environment:
